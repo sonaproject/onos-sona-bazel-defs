@@ -74,6 +74,19 @@ SONA_APPS = [
     '//apps/openstacktroubleshoot:onos-apps-openstacktroubleshoot-oar',
 ]
 
+FEATURES = [
+    "//tools/package/features:onos-thirdparty-base",
+    "//tools/package/features:onos-thirdparty-web",
+    "//tools/package/features:onos-api",
+    "//tools/package/features:onos-core",
+    "//tools/package/features:onos-incubator",
+    "//tools/package/features:onos-cli",
+    "//tools/package/features:onos-rest",
+    "//tools/package/features:onos-gui",
+    # "//tools/package/features:onos-gui2",
+    "//tools/package/features:onos-security",
+]
+
 APP_JARS = [
 ]
 
