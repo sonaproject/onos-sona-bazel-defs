@@ -17,7 +17,6 @@ CORE = UTILS + API + [
     "//core/store/primitives:onos-core-primitives",
     "//core/store/serializers:onos-core-serializers",
     "//core/store/dist:onos-core-dist",
-    "//core/security:onos-security",
     "//core/store/persistence:onos-core-persistence",
     "//incubator/net:onos-incubator-net",
     "//incubator/store:onos-incubator-store",
@@ -84,7 +83,6 @@ FEATURES = [
     "//tools/package/features:onos-rest",
     "//tools/package/features:onos-gui",
     # "//tools/package/features:onos-gui2",
-    "//tools/package/features:onos-security",
 ]
 
 APP_JARS = [
