@@ -58,6 +58,7 @@ ONOS_PROVIDERS = [
 
 ONOS_APPS = [
     "//apps/optical-model:onos-apps-optical-model-oar",
+    "//apps/tunnel:onos-apps-tunnel-oar",
 ]
 
 SONA_APPS = [
