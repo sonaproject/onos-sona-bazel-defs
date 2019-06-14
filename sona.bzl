@@ -61,12 +61,8 @@ ONOS_APPS = [
 ]
 
 SONA_APPS = [
-    "//apps/openstacknode:onos-apps-openstacknode-oar",
-    "//apps/openstacknetworking:onos-apps-openstacknetworking-oar",
-    "//apps/openstacknetworkingui:onos-apps-openstacknetworkingui-oar",
-    "//apps/openstacktelemetry:onos-apps-openstacktelemetry-oar",
-    "//apps/openstacktroubleshoot:onos-apps-openstacktroubleshoot-oar",
-    "//apps/openstackvtap:onos-apps-openstackvtap-oar",
+    "//apps/k8s-node:onos-apps-k8s-node-oar",
+    "//apps/k8s-networking:onos-apps-k8s-networking-oar",
 ]
 
 FEATURES = [
